@@ -5,7 +5,7 @@ Virtual environments are isolated Python environments that allow you to manage d
 If you don't have virtualenv installed, you can install it using pip, Python's package manager:
 
 ```bash
-pip install virtualenv
+sudo apt install python3-virtualenv
 ```
 
 ## Step 2: Create a Virtual Environment
