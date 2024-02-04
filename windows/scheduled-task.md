@@ -1,4 +1,4 @@
-# Setting Up a Scheduled Task to Run Python Script in Windows
+# Setting Up a Scheduled Task to Run a Python project in Windows
 In this tutorial, we'll guide you through the process of setting up a scheduled task on Windows to run a Python script using a virtual environment.
 
 ## Step 1: Create a Virtual Environment
