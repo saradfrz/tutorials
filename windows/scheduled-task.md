@@ -39,7 +39,13 @@ Run the following PowerShell commands:
 
 ```powershell
 New-ScheduledTaskAction -Execute "C:/project/.venv/Scripts/python.exe" -Argument "C:/project/main.py" -WorkingDirectory "C:/project/"
+```
+
+```powershell
 $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek  Monday, Tuesday, Wednesday, Thursday, Friday -At 10am
+```
+
+```powershell
 Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "MyPythonTask" -Description "Runs python project from Monday to Friday at 10am"
 ```
 
