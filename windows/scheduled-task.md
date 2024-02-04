@@ -51,4 +51,7 @@ Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "MyPythonTask
 
 This will create a scheduled task named "MyPythonTask" that runs python.exe with the main.py script every 5 minutes, using the Python interpreter from the virtual environment located in C:/project/.venv.
 
-For more info, visit https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/?view=windowsserver2022-ps
+## Conclusion
+You can edit your new scheduled task using the Windows TaskManager.exe at `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools`.
+
+For additional information on using Powershell commands to create scheduled tasks, visit https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/?view=windowsserver2022-ps
